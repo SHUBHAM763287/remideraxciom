@@ -1,0 +1,86 @@
+.regis a{
+  margin:0 1rem;
+}
+.navbar{
+  background-color: slategrey;
+
+}
+.footer{
+  text-align: center;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fa;
+  margin: 1rem 0;
+}
+.footer p{
+margin:0 auto;
+}
+body {
+  background-color: #9f9da7;
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #2b3e51;
+}
+
+h2 {
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  position: relative;
+}
+
+
+
+#login-form-wrap {
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+#login-form {
+  padding: 0 60px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+}
+.task p{
+  margin:6px 5px;
+}
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+input[type="password"]:focus,
+input[type="email"]:focus {
+  border-color: #3ca9e2;
+}
+.reminder{
+  margin: 4rem 0;
+  text-align: center;
+}
